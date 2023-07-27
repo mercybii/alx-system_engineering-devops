@@ -1,4 +1,4 @@
-#!/usr/bin/ env bash
+#!/usr/bin/env bash
 #scrip that loop 1 to 10
 
 counrter=1
