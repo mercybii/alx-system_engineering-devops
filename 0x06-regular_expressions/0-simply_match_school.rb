@@ -1,18 +1,16 @@
 #!/usr/bin/env ruby
 
-#define the regular expression 
+# Define the regular expression pattern
+regex = /School/
 
-
-regex = /school/
-
-#read an input 
+# Read the input from the command line argument
 input = ARGV[0]
 
-#find all occurence of the regex pattern
-matches = input.scan(regax)
+# Find all occurences of the regex pattern in the input
+matches = input.scan(regex)
 
-#join the matched
+# Join the matched occurence into a single string
 matched_string = matches.join
 
-#output of the matched string
+# Output the matched string followed by the end -f line marker
 puts matched_string
